@@ -1,0 +1,16 @@
+@mixin flexCenter ($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}
+@mixin flexWidth ($direction) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+}
+@mixin flexHeight ($direction) {
+    display: flex;
+    align-items: center;
+    flex-direction: $direction;
+}
